@@ -1,0 +1,52 @@
+section.pricing-top > .container .figure-box {
+	max-width: 750px;
+	display: flex;
+}
+section.pricing-top:nth-child(1) {
+	background-color: #e2f1ff;
+	display: flex;
+}
+section.pricing-top:nth-child(2) {
+	padding: 60px 0;
+}
+section.pricing-top:nth-child(2) .container {
+	display: flex;
+	justify-content: center;
+}
+section.pricing-top:nth-child(2) .container .figure-content {
+	margin-left: 25px;
+}
+section.pricing-top:nth-child(2) .container .figure {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 130px;
+}
+section.pricing-top:nth-child(2) .container .figure-content p {
+	font-size: 1.3em;
+	font-weight: lighter;
+}
+section.pricing-top:nth-child(2) .container:hover .figure {
+	animation: floating-01 10s linear infinite;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+	section.pricing-top:nth-child(1) {
+		background-size: cover;
+	}
+	section.pricing-top:nth-child(2) .container .figure {
+		width: 100%;
+	}
+	section.pricing-top:nth-child(2) .container .figure-box {
+		display: grid;
+		justify-content: center;
+	}
+	section.pricing-top:nth-child(2) .container .figure-content {
+		margin-left: 0;
+	}
+	section.pricing-top:nth-child(2) .container .figure-content p {
+		text-align: center;
+	}
+}

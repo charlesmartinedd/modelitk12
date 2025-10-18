@@ -1,0 +1,87 @@
+
+section.requestdemo-form .container {
+	justify-content: center;
+	padding-bottom: 50px;
+}
+
+section.requestdemo-form .form-container {
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+section.requestdemo-form .success-message {
+	background-color: #d4edda;
+	border: 1px solid #c3e6cb;
+	color: #155724;
+	padding: 15px 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	animation: slideIn 0.5s ease;
+}
+section.requestdemo-form .success-message i {
+	font-size: 1.5em;
+}
+@keyframes slideIn {
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+section.requestdemo-form .form-control {
+	margin: 8px auto;
+}
+section.requestdemo-form .form-control.shadow {
+	display: flex;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 2px 4px #a3ccf7;
+	transition: box-shadow 0.5s linear;
+}
+section.requestdemo-form .form-control.shadow:hover,
+section.requestdemo-form .form-control.shadow:active,
+section.requestdemo-form .form-control.shadow:focus {
+	box-shadow: 0px 1px 10px #78c5e9;
+}
+section.requestdemo-form .form-control input {
+	width: 96.33%;
+}
+section.requestdemo-form .form-control textarea {
+	width: 96.33%;
+}
+section.requestdemo-form .form-control input,
+section.requestdemo-form .form-control textarea {
+	border: 1px solid #2699d0;
+	font-family: 'Hind Vadodara', sans-serif;
+	font-size: 1.3em;
+	font-weight: 400;
+	padding: 15px 15px;
+	border-radius: 10px;
+	color: #0d3595;
+}
+section.requestdemo-form .form-control.save {
+	margin-top: 35px;
+	text-align: center;
+}
+section.requestdemo-form .form-control.save button {
+	background-color: #0f59b9;
+	color: #fff;
+	padding: 15px 65px;
+	border-radius: 10px;
+	font-size: 1.15em;
+	text-transform: uppercase;
+	border: 0;
+	cursor: pointer;
+	transition: box-shadow 0.5s linear, background-color 0.5s linear;
+}
+section.requestdemo-form .form-control.save button:hover {
+	background-color: #030579;
+	box-shadow: 0px 1px 10px #3cafe4;
+}

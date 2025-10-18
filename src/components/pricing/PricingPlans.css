@@ -1,0 +1,55 @@
+
+.plans-container {
+	display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+	margin: 45px 0;
+}
+.plans-container .plan {
+	background-color: #f0f0f0;
+  border: 2px solid #448ed0;
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px #00000070;
+  padding: 0 15px;
+	transition: transform 0.2s linear;
+}
+.plans-container .plan:hover {
+	transform: scale(1.05);
+}
+.plans-container .plan > h3 {
+	color: #448ed0;
+	text-align: center;
+}
+.plans-container .plan > ul {
+	padding-left: 0px;
+	list-style: none;
+}
+.plans-container .plan > ul > li {
+	color: #51575a;
+	font-size: 1em;
+}
+.plans-container .plan > ul > li > span {
+	margin-right: 5px;
+	color: #1dbfa8;
+	font-size: 0.8em;
+}
+.plans-container .plan .btn-purchase-container {
+	margin-bottom: 25px;
+	text-align: center;
+}
+.plans-container .plan .btn-purchase-container button {
+	color: #fff;
+	padding: 8px 15px;
+	cursor: pointer;
+	border: none;
+	box-shadow: 0 1px 3px #959595;
+	transition: background-color 0.3s linear;
+	background-color: #579fdf;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 2px;
+}
+.plans-container .plan .btn-purchase-container button:hover {
+	background-color: #2778be;
+	box-shadow: 0 1px 4px #686868;
+}

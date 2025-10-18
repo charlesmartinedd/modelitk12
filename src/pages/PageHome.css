@@ -1,0 +1,156 @@
+/** SECTION TOP **/
+.page-container section.top .container {
+	display: flex;
+	padding: 90px 0px;
+}
+.page-container section.top .figure {
+	margin-top: 25px;
+	width: 280px;
+}
+.page-container section.top .figure img {
+	width: 100%;
+}
+.page-container section.top .figure-content {
+	margin-left: 1em;
+}
+.page-container section.top .figure-content h3 {
+	font-size: 3em;
+	margin: 0;
+	line-height: 1.1em;
+}
+.page-container section.top .figure-content p {
+	font-size: 1.4em;
+	font-weight: 600;
+}
+
+
+/** SECTION FEATURE **/
+.page-container section.feature {
+	padding: 20px 0 50px 0;
+}
+.page-container section.feature .feature-row {
+	display: flex;
+	margin: 90px 0px;
+	padding: 15px 20px;
+	border-radius: 50px;
+	transition: background-color 0.9s ease;
+}
+.page-container section.feature .feature-row:hover {
+	background-color: #d8edfc;
+}
+.page-container section.feature .feature-row:hover .figure {
+	animation: floating-01 10s linear infinite;
+}
+.page-container section.feature .figure {
+	width: 180px;
+}
+.page-container section.feature .figure img {
+	width: 100%;
+}
+.page-container section.feature .figure-content {
+	width: 70%;
+	margin-left: 25px;
+}
+.page-container section.feature .figure-content h3 {
+	font-size: 3em;
+	margin: 0;
+	line-height: 1.1em;
+}
+.page-container section.feature .figure-content p {
+	font-size: 1.2em;
+	font-weight: 600;
+}
+.page-container section.feature div.feature-row:nth-child(1),
+.page-container section.feature div.feature-row:nth-child(3) {
+  margin-left: 20.333%
+}
+.page-container section.feature div.feature-row:nth-child(2) {
+	margin-right: 20.333%
+}
+.page-container section.feature .feature-lesson {
+	margin: 25px auto;
+	display: flex;
+	max-width: 550px;
+}
+.page-container section.feature .fa-icon {
+	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	border-radius: 50px;
+	background-color: #d3deec;
+	padding: 0 8px;
+	height: 45px;
+}
+.page-container section.feature .fa-icon > i {
+	font-size: 1.5em;
+	color: #1554a7;
+}
+.page-container section.feature .feature-lesson .feature-lesson-content {
+	margin-left: 15px;
+}
+.page-container section.feature .feature-lesson .feature-lesson-content h4 {
+	font-size: 1.25em;
+	margin: 0;
+}
+
+/** SECTION TESTIMONIAL **/
+.page-container section.testimonial {
+	
+}
+.page-container section.testimonial .container {
+	padding: 90px 0px;
+}
+
+
+/* RESPONSIVE */
+@media (min-width: 1200px) {
+	.page-container section.top .container {
+		width: 1000px;
+	}
+}
+@media (max-width: 800px) {
+	
+	/** SECTION TOP **/
+	.page-container section.top .figure-content h3 {
+		font-size: 2em;
+	}
+	.page-container section.top .figure-content p {
+		font-size: 1.0em;
+	}
+
+	/** SECTION FEATURE **/
+	.page-container section.feature div.feature-row:nth-child(1),
+	.page-container section.feature div.feature-row:nth-child(3) {
+		margin-left: 0 !important;
+	}
+	.page-container section.feature div.feature-row:nth-child(2) {
+		margin-right: 0 !important;
+	}
+	.page-container section.feature .feature-row {
+		margin: 45px 0px;
+	}
+	.page-container section.feature .figure-content h3 {
+		font-size: 2.3em;
+	}
+	.page-container section.feature .figure-content p {
+		font-size: 1em;
+	}
+
+	/** SECTION TESTIMONIAL **/
+	.page-container section.testimonial .container {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 600px) {
+	.page-container section.top .figure {
+		display: none;
+	}
+	.page-container section.top .container {
+		display: block;
+	}
+	.page-container section.top .figure-content {
+		width: initial;
+		margin-left: 0px;
+	}
+}

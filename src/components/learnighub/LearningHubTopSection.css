@@ -1,0 +1,14 @@
+section.learninghub-top {
+	background-attachment: fixed;
+}
+section.learninghub-top .container {
+	display: grid;
+	min-height: 450px;
+	align-content: center;
+}
+section.learninghub-top .learning-hub-title {
+	color: #fff;
+}
+section.learninghub-top .learning-hub-content {
+	color: #fff;	
+}

@@ -1,0 +1,36 @@
+
+section.team > .container {
+	display: grid;
+	padding: 40px 0;
+}
+section.team > .container .figure-box {
+	margin-bottom: 50px;
+	display: flex;
+}
+section.team > .container .figure-box:hover .figure {
+	animation: floating-01 10s linear infinite;
+}
+section.team > .container .figure img {
+	width: 145px;
+}
+section.team > .container .figure-content {
+	margin-left: 25px;
+}
+section.team > .container .figure-content h4 {
+	font-size: 1.3em;
+	font-weight: lighter;
+	margin-top: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+	section.team > .container .figure-content {
+		padding: 0 0;
+		width: initial;
+	}
+}
+@media (max-width: 600px) {
+	section.team > .container .figure {
+		display: none;
+	}
+}

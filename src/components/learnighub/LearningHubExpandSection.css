@@ -1,0 +1,33 @@
+
+section.learninghub-expand .container {
+	padding: 90px 0;
+}
+section.learninghub-expand .figure {
+	margin-right: 25px;
+}
+section.learninghub-expand .figure img {
+	width: 190px;
+}
+section.learninghub-expand .figure-box {
+	display: flex;
+}
+section.learninghub-expand .figure-box:hover .figure {
+	animation: floating-01 10s linear infinite;
+}
+section.learninghub-video .learning-hub-title {
+	margin-bottom: 25px;
+}
+
+@media (max-width: 800px) {	
+	section.learninghub-expand .figure {
+		margin-right: 0;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	section.learninghub-expand .container {
+		display: grid;
+	}
+	section.learninghub-expand .learning-hub-content {
+		margin-top: 25px;
+	}
+}

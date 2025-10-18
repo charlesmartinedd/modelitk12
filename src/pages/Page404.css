@@ -1,0 +1,22 @@
+
+section.page404 .container {
+	text-align: center;
+	padding: 90px 0;
+}
+section.page404 .container h2 {
+	color: #1069bd;
+	font-size: 1.9em;
+	margin-bottom: 0px;
+}
+section.page404 .container h5 {
+	color: #5374b3;
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+section.page404 .container .icon-box {
+	animation: shake-h 6s cubic-bezier(.36,.07,.19,.97) infinite;
+}
+section.page404 .container .fa-icon {
+	font-size: 8em;
+	color: #00c3ff;
+}

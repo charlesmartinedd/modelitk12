@@ -1,0 +1,37 @@
+.learning-hub-title {
+	font-size: 3.1em;
+	margin-bottom: 0;
+	margin-top: 0;
+	letter-spacing: -1px;
+	line-height: 1em;
+}
+.learning-hub-content {
+	margin-top: 0px;
+	font-size: 1.2em;
+}
+.learning-hub-btn-contact button {
+	padding: 8px 20px;
+	background-color: #fff;
+	border: 0;
+	border-radius: 20px;
+	color: #0d6cbf;
+	font-weight: bold;
+	cursor: pointer;
+	transition: opacity 0.3s linear, transform 0.3s linear;
+	text-transform: uppercase;
+	opacity: 0.8;
+}
+.learning-hub-btn-contact button:hover {
+	box-shadow: 1px 2px 3px #041b308e;
+	opacity: 1;
+	transform: scale(1.05);
+}
+
+@media (max-width: 800px) {	
+	.learning-hub-title {
+		font-size: 2.4em;
+	}
+	.learning-hub-content {
+		font-size: 1.1em;
+	}	
+}

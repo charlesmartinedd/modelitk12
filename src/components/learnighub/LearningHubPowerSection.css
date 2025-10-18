@@ -1,0 +1,29 @@
+section.learninghub-power {
+	background-position-y: 250px;
+	background-repeat: repeat-x;
+	background-size: initial;
+	background-color: #179caa;
+	transition: background-position-y 2s linear;
+}
+section.learninghub-power:hover {
+	background-position-y: 270px;
+}
+section.learninghub-power .container {
+	display: grid;
+	padding-top: 80px;
+	padding-bottom: 280px;
+}
+section.learninghub-power .container .figure-content {
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(8px);
+	color: #fff;
+	text-shadow: 1px 1px 3px #0000004f;
+}
+
+@media (max-width: 800px) {	
+	section.learninghub-power .container {
+		display: grid;
+		padding-top: 60px;
+		padding-bottom: 150px;
+	}
+}

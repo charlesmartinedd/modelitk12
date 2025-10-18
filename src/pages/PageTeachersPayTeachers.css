@@ -1,0 +1,16 @@
+/* Teachers Pay Teachers Page Styles */
+/* Component-specific styles are in their respective CSS files */
+
+/* Page-level animations and transitions */
+.page-container {
+	animation: pageLoad 0.5s ease;
+}
+
+@keyframes pageLoad {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}

@@ -1,0 +1,75 @@
+.carousel {
+	margin: 0 auto;
+	width: 580px;
+	display: flex;
+}
+.carousel-container {
+  width: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+	display: inline-flex;
+}
+.carousel-slide {
+  animation: slide 30s infinite;
+	display: inline-flex;
+}
+.carousel-slide .frame {
+  width: 450px;
+	padding: 15px 50px;
+}
+.carousel-slide .frame h3,
+.carousel-slide .frame span,
+.carousel-slide .frame p {
+	color: #fff;
+	width: 90%;
+}
+/* Arrow */
+.carousel-skip {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	padding: 0 15px;
+	font-size: 2em;
+	cursor: pointer;
+	color: #fff;
+}
+.carousel-skip:hover {
+	color: #98d9ff;
+}
+.carousel-controls { 
+	color: #fff;
+	text-align: center;
+	gap: 10px;
+	display: flex;
+	justify-content: center;
+	cursor: pointer;
+}
+.carousel-controls i:hover {
+	color: #98d9ff;
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }  
+  33.33% {
+    transform: translateX(-50%);
+  }  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+	.carousel {
+		width: 400px;
+	}
+	.carousel-container {
+		width: 380px;
+	}
+	.carousel-slide .frame {
+		width: 370px;
+	}
+}

@@ -1,0 +1,70 @@
+.pricing-banner {
+	position: fixed;
+	top: 60px;
+	left: 0;
+	right: 0;
+	z-index: 9998;
+	background: linear-gradient(135deg, #0f59b9 0%, #2699d0 100%);
+	color: white;
+	padding: 15px 20px;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+	animation: slideDown 0.5s ease;
+}
+
+@keyframes slideDown {
+	from {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.pricing-banner-content {
+	max-width: 1250px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	font-size: 1.1em;
+}
+
+.pricing-banner-content i.fa-info-circle {
+	font-size: 1.5em;
+}
+
+.pricing-banner-content span {
+	flex: 1;
+}
+
+.pricing-banner-content button {
+	background: rgba(255, 255, 255, 0.2);
+	border: none;
+	color: white;
+	padding: 8px 12px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.pricing-banner-content button:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 800px) {
+	.pricing-banner {
+		top: 50px;
+		padding: 12px 15px;
+	}
+
+	.pricing-banner-content {
+		font-size: 1em;
+		gap: 10px;
+	}
+
+	.pricing-banner-content i.fa-info-circle {
+		font-size: 1.3em;
+	}
+}

@@ -1,0 +1,116 @@
+section.tpt-showcase {
+	padding: 90px 0;
+}
+
+.tpt-showcase-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	grid-gap: 35px;
+	margin: 0 auto;
+	max-width: 1100px;
+	animation: fadeIn 1s ease;
+}
+
+.tpt-showcase-card {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 45px 35px;
+	text-align: center;
+	transition: all 0.3s ease;
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+	border: 2px solid transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.tpt-showcase-card:hover {
+	transform: translateY(-10px) scale(1.03);
+	box-shadow: 0px 15px 40px rgba(15, 106, 206, 0.25);
+	border-color: #89dbfc;
+}
+
+.tpt-card-icon-container {
+	margin-bottom: 30px;
+}
+
+.tpt-card-icon {
+	display: inline-flex;
+	width: 90px;
+	height: 90px;
+	background: linear-gradient(135deg, #0F6ACE 0%, #38aefd 100%);
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 2.2em;
+	transition: all 0.3s ease;
+	box-shadow: 0px 4px 15px rgba(15, 106, 206, 0.3);
+}
+
+.tpt-showcase-card:hover .tpt-card-icon {
+	transform: scale(1.15) rotate(8deg);
+	box-shadow: 0px 8px 30px rgba(15, 106, 206, 0.6);
+}
+
+.tpt-card-title {
+	font-size: 1.7em;
+	font-weight: 600;
+	margin: 0 0 18px 0;
+	line-height: 1.3em;
+}
+
+.tpt-card-description {
+	font-size: 1.15em;
+	line-height: 1.7em;
+	margin: 0;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 1000px) {
+	.tpt-showcase-grid {
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-gap: 30px;
+	}
+
+	.tpt-showcase-card {
+		padding: 40px 30px;
+	}
+}
+
+@media (max-width: 600px) {
+	section.tpt-showcase {
+		padding: 60px 0;
+	}
+
+	.tpt-showcase-grid {
+		grid-template-columns: 1fr;
+		grid-gap: 25px;
+	}
+
+	.tpt-showcase-card {
+		padding: 35px 25px;
+	}
+
+	.tpt-card-icon {
+		width: 80px;
+		height: 80px;
+		font-size: 2em;
+	}
+
+	.tpt-card-title {
+		font-size: 1.5em;
+	}
+
+	.tpt-card-description {
+		font-size: 1.05em;
+	}
+}

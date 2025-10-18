@@ -1,0 +1,27 @@
+
+section.revolutionary > .container {
+	display: grid;
+	justify-content: center;
+}
+section.revolutionary > .container .figure-content {
+	padding: 90px 0;
+	width: 600px;
+}
+section.revolutionary > .container .figure-content h2 {
+	font-size: 2.1em;
+	text-align: center;
+	margin-top: 0;
+}
+section.revolutionary > .container .figure-content h4 {
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: lighter;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+	section.revolutionary > .container .figure-content {
+		padding: 50px 0;
+		width: initial;
+	}
+}
