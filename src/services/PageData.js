@@ -147,7 +147,7 @@ export const pageData = {
 				{
 					id: 11,
 					title: 'Blog',
-					link: 'https://'
+					link: 'https://modelitk12.substack.com/'
 				},
 				{
 					id: 12,

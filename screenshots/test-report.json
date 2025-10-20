@@ -1,0 +1,34 @@
+{
+  "screenshots": [
+    "C:\\Users\\charl\\modelitk12\\screenshots\\modelitk12-desktop-1920x1080.png",
+    "C:\\Users\\charl\\modelitk12\\screenshots\\modelitk12-tablet-768x1024.png",
+    "C:\\Users\\charl\\modelitk12\\screenshots\\modelitk12-mobile-375x667.png"
+  ],
+  "elements": {
+    "comingSoonLink": true,
+    "heroSection": true,
+    "statusCard": true,
+    "cellCollectiveCTA": true,
+    "visionCards": true,
+    "newsletterCTA": false,
+    "footer": false,
+    "cellCollectiveLink": true,
+    "substackBlogLink": true
+  },
+  "links": [
+    {
+      "text": "Cell Collective",
+      "href": "https://cellcollective.org"
+    },
+    {
+      "text": "Subscribe to Our Newsletter",
+      "href": "https://modelitk12.substack.com/"
+    },
+    {
+      "text": "Blog",
+      "href": "https://modelitk12.substack.com/"
+    }
+  ],
+  "issues": [],
+  "success": true
+}

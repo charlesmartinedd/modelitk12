@@ -1,0 +1,488 @@
+/** LANDING PAGE - HERO SECTION **/
+.page-container section.landing-hero {
+	padding: 100px 0 80px 0;
+	min-height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.page-container section.landing-hero .container {
+	text-align: center;
+}
+
+.page-container section.landing-hero .landing-hero-content h1 {
+	font-size: 3.5em;
+	margin: 0 0 30px 0;
+	line-height: 1.2em;
+	font-weight: 600;
+}
+
+.page-container section.landing-hero .hero-tagline {
+	font-size: 1.5em;
+	font-weight: 500;
+	max-width: 900px;
+	margin: 0 auto;
+	line-height: 1.6em;
+}
+
+/** LANDING PAGE - STATUS SECTION **/
+.page-container section.landing-status {
+	padding: 80px 0;
+}
+
+.page-container section.landing-status .status-card {
+	background: white;
+	border-radius: 30px;
+	padding: 60px 80px;
+	text-align: center;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	max-width: 900px;
+	margin: 0 auto;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.page-container section.landing-status .status-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.page-container section.landing-status .status-icon {
+	font-size: 4em;
+	color: #0F6ACE;
+	margin-bottom: 25px;
+}
+
+.page-container section.landing-status .status-card h2 {
+	font-size: 2.5em;
+	margin: 0 0 20px 0;
+}
+
+.page-container section.landing-status .status-card p {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	margin: 0;
+}
+
+/** LANDING PAGE - CELL COLLECTIVE CTA **/
+.page-container section.landing-cell-collective {
+	padding: 80px 0;
+	background: linear-gradient(135deg, #f0f5fb 0%, #ffffff 100%);
+}
+
+.page-container section.landing-cell-collective .cta-card {
+	background: white;
+	border-radius: 30px;
+	padding: 60px;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+	position: relative;
+	overflow: hidden;
+	border: 2px solid #e0eaf7;
+}
+
+.page-container section.landing-cell-collective .cta-content h2 {
+	font-size: 2.8em;
+	margin: 0 0 25px 0;
+	line-height: 1.2em;
+}
+
+.page-container section.landing-cell-collective .cta-content p {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	margin: 0 0 35px 0;
+	max-width: 850px;
+}
+
+.page-container section.landing-cell-collective .cta-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 18px 40px;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	border-radius: 50px;
+	transition: all 0.3s ease;
+	box-shadow: 0 5px 20px rgba(15, 106, 206, 0.3);
+}
+
+.page-container section.landing-cell-collective .cta-button:hover {
+	background-color: #0d5ab0 !important;
+	transform: translateY(-3px);
+	box-shadow: 0 8px 25px rgba(15, 106, 206, 0.4);
+}
+
+.page-container section.landing-cell-collective .cta-button i {
+	transition: transform 0.3s ease;
+}
+
+.page-container section.landing-cell-collective .cta-button:hover i {
+	transform: translateX(5px);
+}
+
+.page-container section.landing-cell-collective .cta-badge {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+}
+
+.page-container section.landing-cell-collective .badge-content {
+	background: linear-gradient(135deg, #0F6ACE 0%, #38aefd 100%);
+	color: white;
+	padding: 15px 25px;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	font-weight: 600;
+	box-shadow: 0 4px 15px rgba(15, 106, 206, 0.3);
+}
+
+.page-container section.landing-cell-collective .badge-content i {
+	font-size: 1.3em;
+}
+
+/** LANDING PAGE - VISION SECTION **/
+.page-container section.landing-vision {
+	padding: 80px 0;
+}
+
+.page-container section.landing-vision .section-title {
+	font-size: 3em;
+	text-align: center;
+	margin: 0 0 60px 0;
+	font-weight: 600;
+}
+
+.page-container section.landing-vision .vision-content {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 40px;
+}
+
+.page-container section.landing-vision .vision-card {
+	background: white;
+	border-radius: 25px;
+	padding: 40px 30px;
+	text-align: center;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+	transition: all 0.3s ease;
+}
+
+.page-container section.landing-vision .vision-card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 12px 35px rgba(0, 0, 0, 0.12);
+}
+
+.page-container section.landing-vision .vision-icon {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto 25px auto;
+	transition: transform 0.3s ease;
+}
+
+.page-container section.landing-vision .vision-card:hover .vision-icon {
+	transform: scale(1.1) rotate(5deg);
+}
+
+.page-container section.landing-vision .vision-icon i {
+	font-size: 2em;
+	color: white;
+}
+
+.page-container section.landing-vision .vision-card h3 {
+	font-size: 1.6em;
+	margin: 0 0 15px 0;
+	line-height: 1.3em;
+}
+
+.page-container section.landing-vision .vision-card p {
+	font-size: 1.05em;
+	line-height: 1.7em;
+	margin: 0;
+}
+
+/** LANDING PAGE - NEWSLETTER SECTION **/
+.page-container section.landing-newsletter {
+	padding: 100px 0;
+}
+
+.page-container section.landing-newsletter .newsletter-content {
+	text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.page-container section.landing-newsletter .newsletter-icon {
+	font-size: 4.5em;
+	color: #89dbfc;
+	margin-bottom: 30px;
+}
+
+.page-container section.landing-newsletter h2 {
+	font-size: 3em;
+	margin: 0 0 25px 0;
+	font-weight: 600;
+}
+
+.page-container section.landing-newsletter p {
+	font-size: 1.2em;
+	line-height: 1.8em;
+	margin: 0 0 40px 0;
+}
+
+.page-container section.landing-newsletter .newsletter-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	padding: 18px 45px;
+	font-size: 1.2em;
+	font-weight: 600;
+	background: white;
+	color: #0F6ACE;
+	text-decoration: none;
+	border-radius: 50px;
+	transition: all 0.3s ease;
+	box-shadow: 0 5px 20px rgba(255, 255, 255, 0.3);
+	border: 2px solid white;
+}
+
+.page-container section.landing-newsletter .newsletter-button:hover {
+	background: transparent;
+	color: white;
+	transform: translateY(-3px);
+	box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
+}
+
+.page-container section.landing-newsletter .newsletter-button i {
+	transition: transform 0.3s ease;
+}
+
+.page-container section.landing-newsletter .newsletter-button:hover i {
+	transform: translateX(5px);
+}
+
+/** RESPONSIVE DESIGN **/
+
+/* Tablet and smaller desktop (1300px) */
+@media (max-width: 1300px) {
+	.page-container section.landing-hero .landing-hero-content h1 {
+		font-size: 3em;
+	}
+
+	.page-container section.landing-hero .hero-tagline {
+		font-size: 1.3em;
+	}
+
+	.page-container section.landing-vision .vision-content {
+		gap: 30px;
+	}
+
+	.page-container section.landing-cell-collective .cta-badge {
+		position: relative;
+		top: 0;
+		right: 0;
+		margin-bottom: 30px;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+/* Tablet (800px) */
+@media (max-width: 800px) {
+	.page-container section.landing-hero {
+		padding: 80px 0 60px 0;
+		min-height: 300px;
+	}
+
+	.page-container section.landing-hero .landing-hero-content h1 {
+		font-size: 2.5em;
+	}
+
+	.page-container section.landing-hero .hero-tagline {
+		font-size: 1.1em;
+	}
+
+	.page-container section.landing-status,
+	.page-container section.landing-cell-collective,
+	.page-container section.landing-vision,
+	.page-container section.landing-newsletter {
+		padding: 60px 0;
+	}
+
+	.page-container section.landing-status .status-card {
+		padding: 40px 30px;
+		border-radius: 20px;
+	}
+
+	.page-container section.landing-status .status-card h2 {
+		font-size: 2em;
+	}
+
+	.page-container section.landing-status .status-card p {
+		font-size: 1.1em;
+	}
+
+	.page-container section.landing-cell-collective .cta-card {
+		padding: 40px 30px;
+		border-radius: 20px;
+	}
+
+	.page-container section.landing-cell-collective .cta-content h2 {
+		font-size: 2.2em;
+	}
+
+	.page-container section.landing-cell-collective .cta-content p {
+		font-size: 1.1em;
+	}
+
+	.page-container section.landing-vision .section-title {
+		font-size: 2.5em;
+		margin-bottom: 40px;
+	}
+
+	.page-container section.landing-vision .vision-content {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+
+	.page-container section.landing-vision .vision-card {
+		padding: 35px 25px;
+	}
+
+	.page-container section.landing-newsletter h2 {
+		font-size: 2.5em;
+	}
+
+	.page-container section.landing-newsletter p {
+		font-size: 1.1em;
+	}
+}
+
+/* Mobile (600px) */
+@media (max-width: 600px) {
+	.page-container section.landing-hero {
+		padding: 60px 0 40px 0;
+	}
+
+	.page-container section.landing-hero .landing-hero-content h1 {
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	.page-container section.landing-hero .hero-tagline {
+		font-size: 1em;
+	}
+
+	.page-container section.landing-status,
+	.page-container section.landing-cell-collective,
+	.page-container section.landing-vision,
+	.page-container section.landing-newsletter {
+		padding: 40px 0;
+	}
+
+	.page-container section.landing-status .status-card {
+		padding: 30px 20px;
+		border-radius: 15px;
+	}
+
+	.page-container section.landing-status .status-icon {
+		font-size: 3em;
+		margin-bottom: 20px;
+	}
+
+	.page-container section.landing-status .status-card h2 {
+		font-size: 1.8em;
+		margin-bottom: 15px;
+	}
+
+	.page-container section.landing-status .status-card p {
+		font-size: 1em;
+	}
+
+	.page-container section.landing-cell-collective .cta-card {
+		padding: 30px 20px;
+		border-radius: 15px;
+	}
+
+	.page-container section.landing-cell-collective .cta-content h2 {
+		font-size: 1.8em;
+		margin-bottom: 20px;
+	}
+
+	.page-container section.landing-cell-collective .cta-content p {
+		font-size: 1em;
+		margin-bottom: 25px;
+	}
+
+	.page-container section.landing-cell-collective .cta-button {
+		padding: 15px 30px;
+		font-size: 1em;
+		width: 100%;
+		justify-content: center;
+	}
+
+	.page-container section.landing-cell-collective .badge-content {
+		padding: 12px 20px;
+		font-size: 0.9em;
+	}
+
+	.page-container section.landing-vision .section-title {
+		font-size: 2em;
+		margin-bottom: 30px;
+	}
+
+	.page-container section.landing-vision .vision-card {
+		padding: 30px 20px;
+		border-radius: 20px;
+	}
+
+	.page-container section.landing-vision .vision-icon {
+		width: 70px;
+		height: 70px;
+		margin-bottom: 20px;
+	}
+
+	.page-container section.landing-vision .vision-icon i {
+		font-size: 1.8em;
+	}
+
+	.page-container section.landing-vision .vision-card h3 {
+		font-size: 1.4em;
+	}
+
+	.page-container section.landing-vision .vision-card p {
+		font-size: 1em;
+	}
+
+	.page-container section.landing-newsletter {
+		padding: 60px 0;
+	}
+
+	.page-container section.landing-newsletter .newsletter-icon {
+		font-size: 3.5em;
+		margin-bottom: 25px;
+	}
+
+	.page-container section.landing-newsletter h2 {
+		font-size: 2em;
+		margin-bottom: 20px;
+	}
+
+	.page-container section.landing-newsletter p {
+		font-size: 1em;
+		margin-bottom: 30px;
+	}
+
+	.page-container section.landing-newsletter .newsletter-button {
+		padding: 15px 30px;
+		font-size: 1em;
+		width: 100%;
+		justify-content: center;
+	}
+}

@@ -2,6 +2,7 @@ import React from "react";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import PageBase from "./PageBase";
 import Page404 from "./pages/Page404";
+import PageLanding from "./pages/PageLanding";
 import PageHome from "./pages/PageHome";
 import PagePricingRedirect from "./pages/PagePricingRedirect";
 import PageLearningHub from "./pages/PageLearningHub";
@@ -14,6 +15,9 @@ export default function App() {
       <Switch>
         <Route exact path="/">
           <PageBase options={{header: true}}><PageHome/></PageBase>
+        </Route>
+        <Route path="/coming-soon">
+          <PageBase options={{header: true}}><PageLanding/></PageBase>
         </Route>
         <Route path="/pricing">
 					<PageBase options={{header: true}}><PagePricingRedirect/></PageBase>
