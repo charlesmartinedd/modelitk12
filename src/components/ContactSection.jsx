@@ -22,7 +22,7 @@ export default function ContactSection() {
 		e.preventDefault();
 		const subject = `Contact Form Submission from ${formData.firstName} ${formData.lastName}`;
 		const body = `Name: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-		window.location.href = `mailto:team@modelitk12.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+		window.location.href = `mailto:info@discoverycollective.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
 		setShowSuccess(true);
 		setFormData({ firstName: '', lastName: '', email: '', message: '' });
@@ -73,7 +73,7 @@ export default function ContactSection() {
 					{showSuccess && (
 						<div className="success-message">
 							<i className="fa fa-check-circle"></i>
-							<span>Thank you for your message! Your email client will open to send your message to team@modelitk12.com.</span>
+							<span>Thank you for your message! Your email client will open to send your message to info@discoverycollective.com.</span>
 						</div>
 					)}
 					<form onSubmit={handleSubmit}>

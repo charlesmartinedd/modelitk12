@@ -8,6 +8,7 @@ import PagePricingRedirect from "./pages/PagePricingRedirect";
 import PageLearningHub from "./pages/PageLearningHub";
 import PageRequestDemo from "./pages/PageRequestDemo";
 import PageTeachersPayTeachers from "./pages/PageTeachersPayTeachers";
+import PagePublications from "./pages/PagePublications";
 
 export default function App() {
   return (
@@ -30,6 +31,9 @@ export default function App() {
         </Route>
 				<Route path="/request-demo">
 					<PageBase options={{header: true}}><PageRequestDemo/></PageBase>
+        </Route>
+				<Route path="/publications">
+					<PageBase options={{header: true}}><PagePublications/></PageBase>
         </Route>
 				<Route path="*">
 					<PageBase options={{header: true}}>

@@ -17,6 +17,25 @@ section.learninghub-expand .figure-box:hover .figure {
 section.learninghub-video .learning-hub-title {
 	margin-bottom: 25px;
 }
+section.learninghub-expand .learning-hub-btn-contact {
+	margin-top: 25px;
+}
+section.learninghub-expand .learning-hub-btn-contact button {
+	background-color: #0F6ACE;
+	color: white;
+	border: none;
+	padding: 12px 28px;
+	border-radius: 8px;
+	font-size: 1em;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+section.learninghub-expand .learning-hub-btn-contact button:hover {
+	background-color: #0c5aa8;
+	transform: translateY(-2px);
+}
 
 @media (max-width: 800px) {	
 	section.learninghub-expand .figure {

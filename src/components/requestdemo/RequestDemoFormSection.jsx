@@ -16,7 +16,7 @@ export default function RequestDemoFormSection() {
 		e.preventDefault();
 		const subject = `Demo Request from ${formData.firstName} ${formData.lastName}`;
 		const body = `Name: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nSchool: ${formData.school}\nRole: ${formData.role}\n\nMessage:\n${formData.message}`;
-		window.location.href = `mailto:team@modelitk12.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+		window.location.href = `mailto:info@discoverycollective.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
 		setShowSuccess(true);
 		setFormData({ firstName: '', lastName: '', email: '', school: '', role: '', message: '' });
@@ -33,7 +33,7 @@ export default function RequestDemoFormSection() {
 					{showSuccess && (
 						<div className="success-message">
 							<i className="fa fa-check-circle"></i>
-							<span>Thank you for your demo request! Your email client will open to send your request to team@modelitk12.com.</span>
+							<span>Thank you for your demo request! Your email client will open to send your request to info@discoverycollective.com.</span>
 						</div>
 					)}
 					<form onSubmit={handleSubmit}>

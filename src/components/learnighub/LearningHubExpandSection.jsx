@@ -1,5 +1,6 @@
 import React from "react";
 import { pageData } from "../../services/PageData";
+import ButtonContact from "./ButtonContact";
 import "./LearningHubExpandSection.css";
 
 export default function LearningHubExpandSection() {
@@ -16,8 +17,9 @@ export default function LearningHubExpandSection() {
 						<div className="figure-content">
 							<h2 className="learning-hub-title color-font-blue-0015">{hubData.title}</h2>
 							<p className="learning-hub-content color-font-gray-0015">{hubData.content}</p>
+							<ButtonContact />
 						</div>
-					</div>					
+					</div>
 			</div>
 		</section>
 	</React.Fragment>

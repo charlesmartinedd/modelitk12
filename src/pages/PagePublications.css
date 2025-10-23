@@ -1,0 +1,205 @@
+/* Publications Hero Section */
+.publications-hero {
+	width: 100%;
+	padding: 80px 0 60px;
+	display: flex;
+	align-items: center;
+	min-height: 300px;
+}
+
+.publications-hero-content {
+	text-align: center;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.publications-hero-content h1 {
+	font-size: 3em;
+	font-weight: 600;
+	margin-bottom: 20px;
+	line-height: 1.2;
+}
+
+.publications-hero-content .hero-tagline {
+	font-size: 1.2em;
+	line-height: 1.6;
+	opacity: 0.95;
+}
+
+/* Publications Grid Section */
+.publications-grid {
+	width: 100%;
+	padding: 80px 0;
+}
+
+.publications-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+/* Publication Card */
+.publication-card {
+	background: white;
+	border-radius: 12px;
+	padding: 35px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+	transition: all 0.3s ease;
+	display: flex;
+	gap: 30px;
+	align-items: flex-start;
+}
+
+.publication-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 30px rgba(15, 106, 206, 0.15);
+}
+
+/* Publication Icon */
+.publication-icon {
+	min-width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 2em;
+	color: white;
+	flex-shrink: 0;
+}
+
+/* Publication Content */
+.publication-content {
+	flex: 1;
+}
+
+.publication-title {
+	font-size: 1.4em;
+	font-weight: 600;
+	margin-bottom: 15px;
+	line-height: 1.4;
+}
+
+/* Publication Metadata */
+.publication-meta {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	margin-bottom: 15px;
+	font-size: 0.9em;
+	color: #626264;
+}
+
+.publication-meta .meta-item {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+
+.publication-meta .meta-item i {
+	font-size: 0.85em;
+	color: #0F6ACE;
+}
+
+/* Publication Description */
+.publication-description {
+	font-size: 1em;
+	line-height: 1.7;
+	margin-bottom: 20px;
+}
+
+/* Publication Button */
+.publication-button {
+	color: white;
+	border: none;
+	padding: 12px 28px;
+	border-radius: 8px;
+	font-size: 1em;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+	font-family: 'Hind Vadodara', sans-serif;
+}
+
+.publication-button:hover {
+	background-color: #0c5aa8 !important;
+	transform: translateX(3px);
+}
+
+.publication-button i {
+	font-size: 0.9em;
+	transition: transform 0.3s ease;
+}
+
+.publication-button:hover i {
+	transform: translateX(3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.publications-hero {
+		padding: 60px 0 40px;
+		min-height: 250px;
+	}
+
+	.publications-hero-content h1 {
+		font-size: 2em;
+	}
+
+	.publications-hero-content .hero-tagline {
+		font-size: 1em;
+	}
+
+	.publications-grid {
+		padding: 50px 0;
+	}
+
+	.publication-card {
+		flex-direction: column;
+		padding: 25px;
+		gap: 20px;
+	}
+
+	.publication-icon {
+		min-width: 60px;
+		height: 60px;
+		font-size: 1.5em;
+	}
+
+	.publication-title {
+		font-size: 1.2em;
+	}
+
+	.publication-meta {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.publication-button {
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.publications-hero-content h1 {
+		font-size: 1.6em;
+	}
+
+	.publication-card {
+		padding: 20px;
+	}
+
+	.publication-title {
+		font-size: 1.1em;
+	}
+
+	.publication-description {
+		font-size: 0.95em;
+	}
+}

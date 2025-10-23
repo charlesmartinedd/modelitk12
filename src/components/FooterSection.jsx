@@ -37,7 +37,7 @@ export default function FooterSection() {
 		'Privacy Policy': (
 			<>
 				<p>ModelIt! collects limited information necessary for improving our platform experience. We never sell or share personal data and comply with applicable privacy standards.</p>
-				<p>For any questions, contact <a href="mailto:team@modelitk12.com">team@modelitk12.com</a>.</p>
+				<p>For any questions, contact <a href="mailto:info@discoverycollective.com">info@discoverycollective.com</a>.</p>
 			</>
 		),
 		'Cookie Preferences': (

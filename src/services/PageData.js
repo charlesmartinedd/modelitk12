@@ -4,7 +4,7 @@ export const pageData = {
 	hero: [
 		{
 			id: 1,
-			title: "ModelIt!: Learn about immunology!",
+			title: "ModelIt!: Home of Systems Thinking Education",
 			content: "Interactive platform for K-12 students and teachers. Hands-on simulations make complex science concepts accessible and engaging. Discover, learn, and have fun!"
 		}
 	],
@@ -102,7 +102,7 @@ export const pageData = {
 			id: 1,
 			icon: 'fa-regular fa-envelope',
 			title: 'Email',
-			content: 'team@modelitk12.com'
+			content: 'info@discoverycollective.com'
 		},
 		// {
 		// 	id: 3,
@@ -152,7 +152,7 @@ export const pageData = {
 				{
 					id: 12,
 					title: 'Publications',
-					link: 'https://'
+					link: '/publications'
 				},
 				{
 					id: 13,
