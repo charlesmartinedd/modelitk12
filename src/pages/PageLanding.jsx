@@ -126,7 +126,7 @@ export default function PageLanding() {
 						the intersection of science and technology.
 					</p>
 					<a
-						href="https://modelitk12.substack.com/"
+						href="https://charlesmartinedd.github.io/modelitk12-newsletter/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="newsletter-button"
